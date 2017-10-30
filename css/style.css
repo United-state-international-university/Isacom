@@ -1,0 +1,18 @@
+html,body{
+    height: 100%
+}
+.split-para      { display:block;margin:10px;}
+.split-para span { display:block;float:right;width:50%;margin-left:10px;}
+.logo{
+    position: relative;
+  /* This will move it 20px up */
+    left: 50px;
+    right: -50px;/* This will move it 20px to the right */
+}
+
+.content {
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+}
